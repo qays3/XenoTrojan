@@ -1,0 +1,3 @@
+┌──(kali㉿kali)-[~/Desktop/XenoTrojan/API/APP]
+└─$ nohup uvicorn main:app --host 0.0.0.0 --port 3993 > fastapi.log 2>&1 &
+
