@@ -49,8 +49,8 @@ XenoTrojan is developed to operate stealthily on victim systems, leveraging Fast
 ├── ELF
 │   └── XenoTrojan
 └── cpp
-    ├── api-get.txt
     └── XenoTrojan.cpp
+
 ```
 
 ## API Deployment
