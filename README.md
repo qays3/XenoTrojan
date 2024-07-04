@@ -29,7 +29,7 @@ The trojan's design in C++ enables it to evade detection and resist reverse engi
 7. [API Lib Requirements](#api-lib-requirements)
 8. [Additional Notes](#additional-notes)
 9. [Contributing](#Contributing)
-10.[Credits](#Credits)
+10. [Credits](#Credits)
 
 ## Introduction
 
