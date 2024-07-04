@@ -3,7 +3,20 @@
 
 ![XenoTrojan Logo](img/ico/space_star.png)
 
-XenoTrojan is a sophisticated trojan project designed for deploying APIs on VPS instances. It efficiently collects victim API data and securely stores it in a MySQL database using FastAPI for rapid API handling.
+
+
+**XenoTrojan is a sophisticated trojan project designed for deploying APIs on VPS instances. It efficiently collects victim API data and securely stores it in a MySQL database using FastAPI for rapid API handling.**
+
+Built in C++ to ensure compatibility across all Linux operating systems, XenoTrojan leverages its design for robust and stealthy operation. The trojan's primary function involves:
+
+- **API Deployment:** It initiates FastAPI servers on VPS instances, facilitating fast and secure data transmission from victim APIs to designated MySQL databases.
+  
+- **Data Collection:** XenoTrojan retrieves vital information such as hostname and IP address from victim systems using system commands, ensuring minimal footprint and efficient data extraction.
+
+- **Security and Efficiency:** By utilizing FastAPI, XenoTrojan ensures swift API handling with minimal latency, making it ideal for real-time data interception and transmission.
+
+The trojan's design in C++ enables it to evade detection and resist reverse engineering, enhancing its effectiveness as a covert data collection tool on Linux platforms.
+
 
 ## Table of Contents
 
