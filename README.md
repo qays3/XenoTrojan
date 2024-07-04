@@ -42,8 +42,8 @@ XenoTrojan is developed to operate stealthily on victim systems, leveraging Fast
 │   ├── APP
 │   │   ├── config.cfg
 │   │   ├── main.py
-│   │   ├── requirements.txt
-│   │   └── runs.txt
+│   │   └── requirements.txt
+│   │   
 ├── db
 │   └── db.sql
 ├── ELF
