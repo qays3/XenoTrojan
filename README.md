@@ -77,7 +77,7 @@ CREATE TABLE `victim` (
   PRIMARY KEY (`id`)
 );
 ```
-![alt text](img/mysql.png)
+![alt text](img/MYSQL-1.png)
 
 
 Update the `config.cfg.example` file with your database credentials:
