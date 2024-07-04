@@ -1,4 +1,0 @@
-sudo apt update
-sudo apt install libcurl4-openssl-dev
-
-g++ XenoTrojan.cpp -o XenoTrojan -lcurl
